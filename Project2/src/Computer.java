@@ -18,6 +18,15 @@ public class Computer extends Item{
 		return hdd;
 	}
 	
+	@Override
+	public void displayInfo() {
+		System.out.println("제조사:" + maker);
+		System.out.println("하드용량:" +hdd);
+		System.out.println("컴퓨터이름:" + getItem());
+		System.out.println("수량:" + getQuantity());
+		
+	}
+	
 	//컴퓨터의 정보 출력
 	public void displayComputer() {
 		System.out.println("제조사:" + maker);

@@ -16,7 +16,10 @@ public class Sample005 {
 		Book book = new Book("IT", "책1", 1);
 		Computer com = new Computer("삼성", 256, "마이컴", 1);
 		
-		item = com; // 큰 수가 작은 수를 받는 개념과 동일
+		book.displayInfo();
+		com.displayInfo();
+		
+		//item = com; // 큰 수가 작은 수를 받는 개념과 동일
 		
 		//System.out.println(item);
 		//System.out.println(item.getType());

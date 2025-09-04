@@ -13,8 +13,10 @@ public class Sample003 {
 	public static void main(String[] args) {
 		Book book = new Book("IT", "책1", 10);
 		System.out.println("카테고리:" + book.getType()
-		+ ", 제목: " + book.getItem()
-		+ ", 수량: " + book.getQuantity());
+		        + ", 제목: " + book.getName()
+		        + ", 수량: " + book.getQuantity());
+		//Item item = book;
+		//System.out.println(item);
 		
 	}
 
